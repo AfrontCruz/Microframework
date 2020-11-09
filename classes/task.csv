@@ -1,4 +1,4 @@
-clase,Task,,,,
+clase,Task
 Tipo,nombre,C,R,U,PK
 int,id,0,1,0,1
 string,nameTask,1,1,1,0

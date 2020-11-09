@@ -60,7 +60,7 @@ class Model:
         model += ";\";"
         model += "\n\t\treturn parent::updateSQL( $query );" 
         model += "\n\t}"
-        model += "\n\tpublic function delete(){"
+        model += "\n\tpublic function delete($data){"
         model += "\n\t\t$query = \"DELETE FROM " + self.classname + " WHERE "
         for f in self.attributes:
             if( int(f[5]) ):

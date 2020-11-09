@@ -1,0 +1,8 @@
+clase,User
+Tipo,nombre,C,R,U,PK
+string,email,1,1,1,1
+string,password,1,0,1,0
+string,username,1,1,1,0
+int,active,0,1,1,0
+string,created,0,1,0,0
+string,updated,0,1,0,0

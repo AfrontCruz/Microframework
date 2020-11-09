@@ -1,0 +1,6 @@
+clase,Item
+Tipo,nombre,C,R,U,PK
+int,id,0,1,0,1
+string,name,1,1,1,0
+float,cost,1,1,1,0
+int,stocks,1,1,1,0

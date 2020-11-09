@@ -32,7 +32,7 @@ class Task extends Model implements \JsonSerializable {
 		$query = "UPDATE Task SET $data->attribute = '$data->value' WHERE id = '$data->id';";
 		return parent::updateSQL( $query );
 	}
-	public function delete(){
+	public function delete($data){
 		$query = "DELETE FROM Task WHERE  id = '$data->id';";
 		return parent::deleteSQL($query);
 	}
